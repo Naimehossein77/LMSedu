@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+html{
+   scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    .nav-link{
+    color: #f2f7ff !important;
+    }
+    .nav-link:hover{
+        color: #cacdd3 !important;
+        }
+    img:hover{
+        color: #cacdd3 !important;
+    }
+}
+
+
+.navbar{
+    background-color: #ab0534 !important;
+    color: #f2f7ff;
+    box-shadow: 0 0 5px #000;
+}
+
+
+
+// HEAD-SECTION
+#head-section{
+    background-color: #ab0534;
+    padding-top: 130px;
+    h1{
+        color: white;
+    }
+    .boy{
+        margin-top: -341px;
+        margin-right: 13px;
+    }
+    button{
+        border-radius: 10px;
+
+    }
+    
+}
+
+
+
+
+// CATAGORIES-SECTION
+#catagories-section{
+    
+    background-color: #f4f8ff;
+    height: auto;
+    padding-bottom: 5rem;
+    h2{
+        font-weight: 800;
+        padding-top: 80px;
+    }
+    h2::after{
+        content: "";
+        display: block;
+        height: .08rem;
+        background: rgb(54, 53, 53);
+        width: 10rem;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    img:hover{
+        background-color: rgb(189, 184, 184);
+    }
+}
+
+
+// CAROUSEL-SLIDER
+#carousel-section{
+    .background-overlay{
+        background:rgba(0, 0,0, 0.466)
+    }
+}
+
+//TOP-COURSES
+#top-courses{
+    background-color: #f2f7ff;
+    padding-top: 8rem;
+    height: auto;
+    padding-bottom: 5rem;
+    font-family: 'Roboto',sans-serif;
+    h3{
+        font-weight: 700; 
+    }
+    p{
+        font-size: .9rem;
+    }
+    button{
+        border-radius: 30px;
+        font-size: .9rem;
+    }
+    .card{
+        font-family: 'Roboto',sans-serif;
+    }
+}
+
+.card{
+    font-family: 'Roboto',sans-serif;
+    p{
+        font-size: .8rem !important;
+    }
+}
+.row{
+    position: relative;
+}
+
+
+// PAGES-SECTION
+#pages-section{
+    font-family: 'Roboto',sans-serif;
+    height: auto;
+    background-color: #f2f7ff;
+    .topp{
+        padding-top: 5rem;
+    }
+    h3{
+        font-weight: 600;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .pad{
+        padding-top: 5rem;
+    }
+}
+
+
+// skill-section
+#skill-section{
+    background: linear-gradient(#ffffffb0, #ffffffb0), url(../img/background1.jpg);
+    background-size: cover;
+    height: auto;
+
+    color: #393939;
+    h2{
+        font-weight: 600;
+        letter-spacing: .1rem;
+        margin-bottom: 1rem;
+        padding-top: 5rem;
+    }
+    h2::after{
+        content: "";
+        display: block;
+        height: .08rem;
+        background: rgb(54, 53, 53);
+        width: 10rem;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .box{
+        margin-top: 4rem;
+    }
+    svg.radial-progress circle{
+        stroke-width: 5;
+    }
+    svg.radial-progress text{
+        fill: #393939;
+        font-size: 1em;
+    }
+
+
+    .web-design circle{
+        stroke:#30bae7;
+    }
+    .html-css circle{
+        stroke:#d74680;
+    }
+    .graphic-design circle{
+        stroke:#15c7a8;
+    }
+    .ui-ux circle{
+        stroke:#eb7d4b;
+    }
+  
+    
+    
+}
+
+.italic{
+    font-style: italic;
+    font-size: 1rem !important;
+    margin-left: -3rem;
+}
+
+// CLIENT-SECTION
+#client-section{
+    height: auto;
+    padding-bottom: 5rem;
+    font-family: 'Roboto',sans-serif;
+    background-color: #f7f9fa;
+    h3{
+        font-weight: 600;
+    }
+    .row{
+        padding-top: 7rem;
+        p{
+            font-size: .9rem;
+        }
+    }
+    
+    .imgg{
+        margin-top: -2rem;
+        margin-bottom: 4.2rem;
+    }
+
+    .video-client{
+        background: url(../img/slider-cards/videoframe.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+}
+.graphic{
+    font-size: .8rem;
+}
+.bdrr{
+    border-right: 1px solid #ddd;
+}
+.bdrb{
+    border-bottom: 1px solid #ddd;
+}
+
+
+// INATRUCTOR
+#instructor{
+    height: 25rem;
+    font-family: 'Roboto',sans-serif;
+    background: url(../img/instructorbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+        letter-spacing: .2rem;
+        font-weight: 500;
+        padding-top: 3.5rem;
+    }
+    .form-control{
+        border-radius: 2rem !important;
+        height: 4rem;
+    }
+    button{
+        border-radius: 2rem;
+        width: 12rem;
+        height: 4rem;
+        margin-top: -5.6rem;
+        margin-left: 26rem;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: .2rem;
+        background-color: #AB0534;
+    }
+    button:hover{
+        background-color: #660b25 !important;
+    }
+}
+
+
+
+// Footer
+#footer{
+    background-color: #292662;
+    height: auto;
+    padding-top: 6rem;
+    .fab{
+        color: white;
+        font-size: 2rem;
+        rotate: 360deg;
+    }
+    .social-link a:hover i::before{
+        display: inline-block;
+        transform: rotate(360deg);
+        transition: .5s;
+        .fab{
+            color: rgb(119, 115, 115) !important;
+        }
+        
+    }
+}
+
+.jubair{
+    font-size: 1.7rem;
+    color: #fca311;
+}
+
+
+
+
+@media (max-width:500px){
+    html{
+        font-size: 12px;
+    }
+    .rtr{
+        margin: auto;
+        padding: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// RADIAL-PROGRESSBAR
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 10;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+    fill: #fff;
+    text-anchor: middle;
+  }
